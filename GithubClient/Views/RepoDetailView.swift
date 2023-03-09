@@ -3,7 +3,6 @@ import SwiftUI
 
 struct RepoDetailView: View {
     let repo: Repo
-    
     var body: some View {
         ScrollView {
             HStack {
@@ -15,7 +14,6 @@ struct RepoDetailView: View {
                         Text(repo.owner.name)
                             .font(.caption)
                     }
-                    
                     Text(repo.name)
                         .font(.body)
                         .fontWeight(.bold)

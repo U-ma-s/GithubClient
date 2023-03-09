@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA61F9C029BA053B006CD8C5 /* Stateful.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA61F9BF29BA053B006CD8C5 /* Stateful.swift */; };
 		AAAE233329B3144C0027C10D /* GithubClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE233229B3144C0027C10D /* GithubClientApp.swift */; };
 		AAAE233529B3144C0027C10D /* RepoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAE233429B3144C0027C10D /* RepoListView.swift */; };
 		AAAE233729B3144E0027C10D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAAE233629B3144E0027C10D /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA61F9BF29BA053B006CD8C5 /* Stateful.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stateful.swift; sourceTree = "<group>"; };
 		AAAE232F29B3144C0027C10D /* GithubClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAAE233229B3144C0027C10D /* GithubClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubClientApp.swift; sourceTree = "<group>"; };
 		AAAE233429B3144C0027C10D /* RepoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoListView.swift; sourceTree = "<group>"; };
@@ -44,6 +46,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA61F9BE29BA051F006CD8C5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AA61F9BF29BA053B006CD8C5 /* Stateful.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		AAAE232629B3144C0027C10D = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +73,7 @@
 		AAAE233129B3144C0027C10D /* GithubClient */ = {
 			isa = PBXGroup;
 			children = (
+				AA61F9BE29BA051F006CD8C5 /* Utilities */,
 				AAAE234929B31E9E0027C10D /* Views */,
 				AAAE233229B3144C0027C10D /* GithubClientApp.swift */,
 				AAAE234429B319530027C10D /* Models */,
@@ -187,6 +198,7 @@
 				AAAE233529B3144C0027C10D /* RepoListView.swift in Sources */,
 				AAAE234F29B3211E0027C10D /* User+mock.swift in Sources */,
 				AAAE233329B3144C0027C10D /* GithubClientApp.swift in Sources */,
+				AA61F9C029BA053B006CD8C5 /* Stateful.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
